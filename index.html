@@ -1,217 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Styles -->
 
-  <!--CSS Styles -->
-  
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="64x64"
+      href="assets/icons/web logo.png"
+    />
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
-  <link rel="icon" type="image/x-icon" sizes="64x64" href="assets/icons/web logo.png"/>
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Ritik Malik | Coding Enthusiast</title>
+  </head>
 
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <title>Ritik Malik | Coding Enthusiast</title>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1 class="wow bounce">RITIK MALIK</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
 
-<body>
-  <!-- Navbar -->
-  <nav>
-    <h1 class="wow bounce">RITIK MALIK</h1>
-    <ul class="navigation">
-      <li><a href="#about" class="nav-link">About</a></li>
-      <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
-    </ul>
-    <button class="burger-menu" id="burger-menu">
-      <ion-icon class="bars" name="menu-outline"></ion-icon>
-    </button>
-  </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/homeport.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img wow flip"
+      />
+      <div class="wow bounce">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Meet Ritik Malik, a passionate learner who is currently diving deep
+          into the world of Java. He is an ambitious front-end developer who is
+          constantly seeking to expand his knowledge and skillset in coding.
+          Ritik has a thirst for knowledge and is always eager to explore new
+          technologies in the field of programming.
+        </p>
+      </div>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero" id="about">
-    <img  src="assets/images/homeport.png" alt="jane-doe" loading="lazy" class="hero-img wow flip"/>
-    <div class="wow bounce">
-      <h2 class="bio-title">About Me</h2>
-      <p class="bio-text">
-        Meet Ritik Malik, a passionate learner who is currently diving deep into the world of Java. He is an ambitious front-end developer who is constantly seeking to expand his knowledge and skillset in coding. Ritik has a thirst for knowledge and is always eager to explore new technologies in the field of programming.
+    <!-- More about -->
+
+    <section class="more-about">
+      <h2>More About Ritik Malik</h2>
+      <p>
+        You'll often find Ritik glued to his computer, typing away on his
+        keyboard, as he delves into Java's intricacies. He loves the challenge
+        of mastering complex coding concepts and is always looking for new ways
+        to apply what he has learned. His determination and persistence make him
+        an excellent learner, and he is always up for a challenge.
       </p>
+      <p>
+        As a front-end developer, Ritik has a keen eye for detail and takes
+        great pride in creating visually appealing and user-friendly websites.
+        He understands the importance of staying on top of the latest
+        technologies and trends in coding to keep his skills fresh and relevant.
+      </p>
+      <p>
+        Ritik Malik is a highly motivated and passionate front-end developer who
+        is constantly seeking to expand his knowledge and skillset in coding. He
+        has a love for Java and enjoys learning new technologies in the field of
+        programming. His persistence, attention to detail, and problem-solving
+        skills make him an excellent learner and an asset to any coding team.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/java.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/js.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/react.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/html-5.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css-3.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/github.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/quoraclone.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Quora Clone</h3>
+          <p class="project-details">
+            Similar to Quora, this website features a user-friendly interface
+            and a diverse community of contributors who share knowledge and
+            insights on a wide range of subjects. Users can also vote on
+            answers, follow topics, and interact with other users through
+            comments and private messages.
+          </p>
+          <a
+            href=" https://ritilkmalik01.github.io/QnA-/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/simongame.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Simon PC Game</h3>
+          <p class="project-details">
+            Simon PC game is a classic memory-based game where the player
+            replicates a sequence of colored buttons that light up and make
+            corresponding sounds. The game increases in difficulty as the player
+            progresses through various levels and modes.
+          </p>
+          <a
+            href=" https://ritilkmalik01.github.io/Simon-Game/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/indiedog.jpg"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Indiedog Website</h3>
+          <p class="project-details">
+            This is the indiedog website that you can use for meeting your dogs
+            to other dogs. And also meet with our experts who tells you how can
+            you maintain your dog's diet and makes your dog healthy.And now you
+            can search here variety of dog breeds.
+          </p>
+          <a
+            href="https://ritilkmalik01.github.io/indiedogfind/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/drumkit.jpg"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Drum Kit Website</h3>
+          <p class="project-details">
+            A drum kit consists of a mix of drums (categorized classically as
+            membranophones, Hornbostel-Sachs high-level classification 2) and
+            idiophone most significantly cymbals, but can also include the
+            woodblock and cowbell (classified as Hornbostel-Sachs high-level
+            classification 1).So,lets try your music skills.
+          </p>
+          <a
+            href="https://ritilkmalik01.github.io/Drumbeat/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/bmicalculator.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">BMI Calculator</h3>
+          <p class="project-details">
+            Body Mass Index is a simple calculation using a person's height and
+            weight. The formula is BMI = kg/m2 where kg is a person's weight in
+            kilograms and m2 is their height in metres squared. A BMI of 25.0 or
+            more is overweight, while the healthy range is 18.5 to 24.9. BMI
+            applies to most adults 18-65 years.Let's check your bmi are you
+            healthy or not.
+          </p>
+          <a
+            href="https://ritilkmalik01.github.io/BMI-calculator/"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="mailto:rmab8501@gmail.com" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a
+        class="padding-icon"
+        href="https://twitter.com/ritikmalik01?t=6dVa9rK4SMwhUylbsvKkmg&s=08"
+        target="_blank"
+        ><img
+          src="assets/icons/twitter.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        class="padding-icon"
+        href="https://instagram.com/ritikmalik01?igshid=YmMyMTA2M2Y="
+        target="_blank"
+        ><img
+          src="assets/icons/insta.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        class="padding-icon"
+        href="https://www.snapchat.com/add/ritikmalik001?share_id=ksDiuTc4sfc&locale=en-GB"
+        target="_blank"
+        ><img
+          src="assets/icons/snapchat.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        class="padding-icon"
+        href="https://github.com/ritilkmalik01"
+        target="_blank"
+        ><img src="assets/icons/github.gif" alt="Github" class="socicon"
+      /></a>
+      <a
+        class="padding-icon"
+        href="https://www.linkedin.com/in/ritik-malik-23210b267"
+        target="_blank"
+        ><img src="assets/icons/linkedin.gif" alt="Linkedin " class="socicon"
+      /></a>
     </div>
-  </section>
-
- 
-  <!-- More about -->
-
-  <section class="more-about">
-    <h2>More About Ritik Malik</h2>
-    <p>
-      You'll often find Ritik glued to his computer, typing away on his keyboard, as he delves into Java's intricacies. He loves the challenge of mastering complex coding concepts and is always looking for new ways to apply what he has learned. His determination and persistence make him an excellent learner, and he is always up for a challenge.
-    </p>
-    <p>
-      As a front-end developer, Ritik has a keen eye for detail and takes great pride in creating visually appealing and user-friendly websites. He understands the importance of staying on top of the latest technologies and trends in coding to keep his skills fresh and relevant.
-    </p>
-    <p>
-      Ritik Malik is a highly motivated and passionate front-end developer who is constantly seeking to expand his knowledge and skillset in coding. He has a love for Java and enjoys learning new technologies in the field of programming. His persistence, attention to detail, and problem-solving skills make him an excellent learner and an asset to any coding team.
-    </p>
-  </section>
-
-  <!-- Skills section -->
-  <section class="skills" id="skills">
-    <h2 class="skill-header">My Top Skills</h2>
-
-    <div class="skills-wrapper">
-      <div class="first-set animate__animated animate__pulse">
-        <img src="assets/icons/java.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/js.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/react.png" alt="" loading="lazy" class="icon icon-card" />
-      </div>
-
-      <div class="second-set animate__animated animate__pulse">
-        <img src="assets/icons/html-5.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/css-3.png" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/github.png" alt="" loading="lazy" class="icon icon-card" />
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects section -->
-  <section class="projects" id="projects">
-    <h2 class="projects-title">Some of my Recent Projects</h2>
-    <div class="projects-container">
-
-      <div class="project-container project-card">
-        <img src="assets/images/quoraclone.png" alt="expense-tracker" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Quora Clone</h3>
-        <p class="project-details">
-          Similar to Quora, this website features a user-friendly interface and a diverse community of contributors who share knowledge and insights on a wide range of subjects. Users can also vote on answers, follow topics, and interact with other users through comments and private messages.
-        </p>
-        <a href=" https://ritilkmalik01.github.io/QnA-/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-
-      <div class="project-container project-card">
-        <img src="assets/images/simongame.png" alt="expense-tracker" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Simon PC Game</h3>
-        <p class="project-details">
-          Simon PC game is a classic memory-based game where the player replicates a sequence of colored buttons that light up and make corresponding sounds. The game increases in difficulty as the player progresses through various levels and modes.
-        </p>
-        <a href=" https://ritilkmalik01.github.io/Simon-Game/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-
-
-      <div class="project-container project-card">
-        <img src="assets/images/indiedog.jpg" alt="expense-tracker" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Indiedog Website</h3>
-        <p class="project-details">
-          This is the indiedog website that you can use for meeting your dogs to other dogs. And also meet with our experts who tells you how can you maintain your dog's diet and makes your dog healthy.And now you can search here variety of dog breeds.
-        </p>
-        <a href="https://ritilkmalik01.github.io/indiedogfind/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-      <div class="project-container project-card">
-        <img src="assets/images/drumkit.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
-        <h3 class="project-title">Drum Kit Website</h3>
-        <p class="project-details">
-          A drum kit consists of a mix of drums (categorized classically as membranophones, Hornbostel-Sachs high-level classification 2) and idiophone most significantly cymbals, but can also include the woodblock and cowbell (classified as Hornbostel-Sachs high-level classification 1).So,lets try your music skills.
-        </p>
-        <a href="https://ritilkmalik01.github.io/Drumbeat/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-      <div class="project-container project-card">
-        <img src="assets/images/bmicalculator.png" alt="greeny-earth" loading="lazy" class="project-pic" />
-        <h3 class="project-title">BMI Calculator</h3>
-        <p class="project-details">
-          Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared.
-
-          A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 24.9. BMI applies to most adults 18-65 years.Let's check your bmi are you healthy or not.
-        </p>
-        <a href="https://ritilkmalik01.github.io/BMI-calculator/" target="_blank" class="project-link">Check it Out</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact section -->
-  <section class="contact" id="contact">
-    <h2>Get In Touch With Me</h2>
-    <div class="contact-form-container">
-      <div class="contact-form">
-        <form action="mailto:rmab8501@gmail.com" method="POST">
-          <div class="form-control">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
-              required />
-          </div>
-          <div class="form-control">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
-              required />
-          </div>
-          <div class="form-control">
-            <label for="message">Message</label>
-            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
-              class="input-field" required></textarea>
-          </div>
-          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
-        </form>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Social accounts - Fixed to the right -->
-  <div class="socials">
-    <a class="padding-icon" href="https://twitter.com/ritikmalik01?t=6dVa9rK4SMwhUylbsvKkmg&s=08" target="_blank"><img src="assets/icons/twitter.gif" alt="Twitter" loading="lazy" class="socicon" /></a>
-    <a class="padding-icon" href="https://instagram.com/ritikmalik01?igshid=YmMyMTA2M2Y=" target="_blank"><img src="assets/icons/insta.gif" alt="Instagram" loading="lazy"
-        class="socicon" /></a>
-    <a class="padding-icon" href="https://www.snapchat.com/add/ritikmalik001?share_id=ksDiuTc4sfc&locale=en-GB" target="_blank"><img src="assets/icons/snapchat.gif" alt="Linkedin" loading="lazy"
-        class="socicon" /></a>
-    <a class="padding-icon" href="https://github.com/ritilkmalik01" target="_blank"><img src="assets/icons/github.gif" alt="Github" class="socicon" /></a>
-    <a class="padding-icon" href="https://www.linkedin.com/in/ritik-malik-23210b267" target="_blank"><img src="assets/icons/linkedin.gif" alt="Linkedin " class="socicon" /></a>
 
     <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"><img src="assets/images/upscroll.gif" class="socicon up-arrow"
-        alt="scroll-up" /></i>
+    <!-- <i class="scroll-up" id="scroll-up"><img src="assets/images/upscroll.gif" class="socicon up-arrow"
+        alt="scroll-up" /></i> -->
 
     <!-- Footer section -->
-    <footer>
-      <b>Email Id:rmab8501@gmail.com</b><br>
+    <center>
+      <b>Email Id:rmab8501@gmail.com</b><br />
       <b class="copy">&copy; Copyright 2022</b>
       <b class="copy">
         Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank">Ritik Malik</a>
+        <b>Ritik Malik</b>
       </b>
-    </footer>
-
+    </center>
 
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>
-      var wow = new WOW(
-  {
-    boxClass:     'wow',      // animated element css class (default is Wow)
-    animateClass: 'animated', // animation css class (default is animated)
-    offset:       0,          // distance to the element when triggering the animation (default is 0)
-    mobile:       true,       // trigger animations on mobile devices (default is true)
-    live:         true,       // act on asynchronously loaded content (default is true)
-    callback:     function(box) {
-      // the callback is fired every time an animation is started
-      // the argument that is passed in is the DOM node being animated
-    },
-    scrollContainer: null,    // optional scroll container selector, otherwise use window,
-    resetAnimation: true,     // reset animation on end (default is true)
-  }
-);
-wow.init();
+      var wow = new WOW({
+        boxClass: "wow", // animated element css class (default is Wow)
+        animateClass: "animated", // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function (box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+      });
+      wow.init();
     </script>
 
     <!-- Ion icons scripts -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
