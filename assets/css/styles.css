@@ -19,6 +19,9 @@
   .contact-form-container {
     max-width: 17.75rem;
   }
+  .footer {
+    max-width: 17rem;
+  }
 }
 
 :root {
@@ -351,7 +354,7 @@ footer {
 
 .scroll-up {
   position: fixed;
-  bottom: 3%;
+  bottom: 7%;
   cursor: pointer;
 }
 
